@@ -1,7 +1,8 @@
 # CompressingImage
-we can using this library for compressing images in android befor upload it to server 
+we can using this library for compressing images in android (befor upload it to server)
 
-compressing Image im small sizes witout lose imagr quality 
+
+compressing Image in small sizes witout losing image quality 
 
 easy way to using it
 
