@@ -22,3 +22,9 @@ allprojects {
 	        implementation 'com.github.BasemNasr:CompressingImage:0.1.0'
 	}
 
+
+
+//set original image path
+val originalImagePath = "/originalImagePath"
+val compressedImagePath = BeforeUploadImages()
+           .resizeAndCompressImageBeforeSend(this, originalImagePath, File(originalImagePath).name)
