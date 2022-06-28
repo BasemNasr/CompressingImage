@@ -26,6 +26,8 @@ allprojects {
 
 
 //set original image path
+
 val originalImagePath = "/originalImagePath"
+
 val compressedImagePath = BeforeUploadImages()
            .resizeAndCompressImageBeforeSend(this, originalImagePath, File(originalImagePath).name)
